@@ -10,7 +10,7 @@ const About = () => {
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-12 pb-5'>
-        <img className='w-full md:max-w-[360px]' src={assets.about} alt="" />
+        <img className='w-full md:max-w-[400px]' src={assets.about} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600 pl-10'>
           <p>At InfiniteCare, we are dedicated to providing seamless access to top-notch healthcare professionals, ensuring that your well-being is our top priority. Our platform connects you with a wide range of specialists, including General Physicians, Gynecologists, Dermatologists, Pediatricians, Neurologists, and Gastroenterologists, all committed to delivering exceptional care.</p>
           <p>With InfiniteCare, booking appointments has never been easier. Our user-friendly platform is designed to save you time and effort, allowing you to schedule visits with your preferred doctors at your convenience. We believe in bridging the gap between patients and healthcare providers, offering personalized solutions tailored to your unique needs. </p>
