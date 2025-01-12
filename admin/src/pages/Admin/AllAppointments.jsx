@@ -6,9 +6,11 @@ import { AppContext } from '../../context/AppContext'
 
 const AllAppointments = () => {
 
+  // Extracting required functions and data from AdminContext
   const { aToken, appointments, cancelAppointment, getAllAppointments } = useContext(AdminContext)
   const { slotDateFormat, calculateAge, currency } = useContext(AppContext)
 
+ // Fetch all appointments when 'aToken' changes
   useEffect(() => {
     if (aToken) {
       getAllAppointments()
