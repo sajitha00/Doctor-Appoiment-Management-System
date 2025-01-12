@@ -10,7 +10,7 @@ const Footer = () => {
         
         <div>
           <img className='mb-5 w-80 py-5' src={assets.InfiniteCare} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is placeholder text commonly used in the printing and typesetting industry. It has served as the industry's standard dummy text since the 1500s, when an unknown printer rearranged a collection of type to create a type specimen book.</p>
         </div>
 
         <div>
