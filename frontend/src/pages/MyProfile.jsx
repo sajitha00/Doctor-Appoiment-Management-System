@@ -67,7 +67,7 @@ const MyProfile = () => {
             <hr className='bg-[#ADADAD] h-[1px] border-none' />
 
             <div>
-                <p className='text-gray-600 underline mt-3'>CONTACT INFORMATION</p>
+                <p className='text-gray-600 underline mt-3 font-medium'>CONTACT INFORMATION</p>
                 <div className='grid grid-cols-[1fr_3fr] gap-y-2.5 mt-3 text-[#363636]'>
                     <p className='font-medium'>Email id:</p>
                     <p className='text-blue-500'>{userData.email}</p>
@@ -91,7 +91,7 @@ const MyProfile = () => {
                 </div>
             </div>
             <div>
-                <p className='text-[#797979] underline mt-3'>BASIC INFORMATION</p>
+                <p className='text-[#797979] underline mt-3 font-semibold'>BASIC INFORMATION</p>
                 <div className='grid grid-cols-[1fr_3fr] gap-y-2.5 mt-3 text-gray-600'>
                     <p className='font-medium'>Gender:</p>
 
@@ -113,7 +113,7 @@ const MyProfile = () => {
 
                 </div>
             </div>
-            <div className='mt-10'>
+            <div className='mt-10 pb-10'>
 
                 {isEdit
                     ? <button onClick={updateUserProfileData} className='border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all'>Save information</button>
@@ -121,8 +121,11 @@ const MyProfile = () => {
                 }
 
             </div>
+            
         </div>
+        
     ) : null
+    
 }
 
 export default MyProfile
