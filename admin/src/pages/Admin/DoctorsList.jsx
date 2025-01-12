@@ -2,7 +2,8 @@ import React, { useContext, useEffect } from 'react'
 import { AdminContext } from '../../context/AdminContext'
 
 const DoctorsList = () => {
-
+  
+// Extracting doctors data and related functions from AdminContext
   const { doctors, changeAvailability , aToken , getAllDoctors} = useContext(AdminContext)
 
   useEffect(() => {
