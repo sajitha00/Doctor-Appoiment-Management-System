@@ -1,7 +1,5 @@
 import banner from './banner.png'
 import header_img from './header_img.png'
-import group_profiles from './group_profiles.png'
-import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about from './about.png'
 import InfiniteCare from './InfiniteCare.svg'
@@ -15,7 +13,6 @@ import arrow_icon from './arrow_icon.svg'
 import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
-import razorpay_logo from './razorpay_logo.png'
 import Dermatologist from './Dermatologist.png'
 import Gastroenterologist from './Gastroenterologist.png'
 import General_physician from './General_physician.png'
@@ -27,13 +24,11 @@ import Pediatricians from './Pediatricians.png'
 export const assets = {
     banner,
     header_img,
-    group_profiles,
     InfiniteCare,
     logo,
     chats_icon,
     verified_icon,
     info_icon,
-    profile_pic,
     arrow_icon,
     contact_image,
     about,
@@ -41,8 +36,7 @@ export const assets = {
     cross_icon,
     dropdown_icon,
     upload_icon,
-    stripe_logo,
-    razorpay_logo
+    stripe_logo
 }
 
 export const specialityData = [
