@@ -5,10 +5,7 @@ import home from './home.svg'
 import usersD from './usersD.svg'
 import addDoctor from './addDoctor.svg'
 import upload_area from './upload_area.svg'
-import list_icon from './list_icon.svg'
 import tick_icon from './tick_icon.svg'
-import earning_icon from './earning_icon.svg'
-import patients_icon from './patients_icon.svg'
 import Appointment from './Appointment.svg'
 import Doctor from './Doctor.svg'
 import User from './User.svg'
@@ -22,11 +19,8 @@ export const assets = {
     upload_area,
     home,
     addDoctor,
-    patients_icon,
     usersD,
-    list_icon,
     tick_icon,
-    earning_icon,
     Appointment,
     Doctor,
     User,
