@@ -1,0 +1,27 @@
+services:
+  backend:
+    image: node:22
+    volumes:
+      - ./backend:/usr/src/backend
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env
+    working_dir: /usr/src/backend  # Set the working directory
+    command: sh -c "chmod +x /usr/src/backend/startup.sh && /usr/src/backend/startup.sh"
+  frontend:
+    image: node:22
+    volumes:
+      - ./frontend:/usr/src/frontend
+    ports:
+      - "5173:5173"
+    working_dir: /usr/src/frontend  # Set the working directory  
+    command: sh -c "chmod +x /usr/src/frontend/startup.sh && /usr/src/frontend/startup.sh"
+  admin:
+      image: node:22
+      volumes:
+        - ./admin:/usr/src/admin
+      ports:
+        - "5174:5174"
+      working_dir: /usr/src/admin  # Set the working directory  
+      command: sh -c "chmod +x /usr/src/admin/startup.sh && /usr/src/admin/startup.sh"
