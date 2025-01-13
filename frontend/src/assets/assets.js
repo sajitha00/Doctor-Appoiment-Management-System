@@ -3,7 +3,6 @@ import header_img from './header_img.png'
 import contact_image from './contact_image.png'
 import about from './about.png'
 import InfiniteCare from './InfiniteCare.svg'
-import logo from './logo.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -25,7 +24,6 @@ export const assets = {
     banner,
     header_img,
     InfiniteCare,
-    logo,
     chats_icon,
     verified_icon,
     info_icon,
