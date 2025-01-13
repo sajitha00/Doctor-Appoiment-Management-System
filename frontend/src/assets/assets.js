@@ -1,4 +1,3 @@
-import banner1 from './banner1.png'
 import banner from './banner.png'
 import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
@@ -26,7 +25,6 @@ import Pediatricians from './Pediatricians.png'
 
 
 export const assets = {
-    banner1,
     banner,
     header_img,
     group_profiles,
