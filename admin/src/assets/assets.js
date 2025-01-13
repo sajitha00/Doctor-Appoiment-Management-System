@@ -1,5 +1,3 @@
-import add_icon from './add_icon.svg'
-import admin_logo from './admin_logo.svg'
 import InfiniteCare from './InfiniteCare.svg'
 import appointmentDA from './appointmentDA.svg'
 import cancel_icon from './cancel_icon.svg'
@@ -20,8 +18,6 @@ import Booking from './Booking.svg'
 import Earning from './Earning.svg'
 
 export const assets = {
-    add_icon,
-    admin_logo,
     InfiniteCare,
     appointmentDA,
     cancel_icon,
