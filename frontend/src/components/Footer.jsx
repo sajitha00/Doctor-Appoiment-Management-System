@@ -9,7 +9,10 @@ const Footer = () => {
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10  mt-10 text-sm'>
         
         <div>
-          <img className='mb-5 w-80 py-5' src={assets.InfiniteCare} alt="" />
+          <NavLink to='/'>
+            <img className='mb-5 w-80 py-5' src={assets.InfiniteCare} alt="" />
+          </NavLink>
+          
           <p className='w-full md:w-2/3 text-gray-600 leading-6'>Empowering healthier lives by seamlessly connecting patients with trusted medical professionals. Experience reliable, convenient, and personalized healthcare services at your fingertips, anytime, anywhere. Your health and well-being remain our top priority..</p>
         </div>
 
