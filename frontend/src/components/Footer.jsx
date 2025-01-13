@@ -10,7 +10,7 @@ const Footer = () => {
         
         <div>
           <img className='mb-5 w-80 py-5' src={assets.InfiniteCare} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is placeholder text commonly used in the printing and typesetting industry. It has served as the industry's standard dummy text since the 1500s, when an unknown printer rearranged a collection of type to create a type specimen book.</p>
+          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Empowering healthier lives by seamlessly connecting patients with trusted medical professionals. Experience reliable, convenient, and personalized healthcare services at your fingertips, anytime, anywhere. Your health and well-being remain our top priority..</p>
         </div>
 
         <div>
