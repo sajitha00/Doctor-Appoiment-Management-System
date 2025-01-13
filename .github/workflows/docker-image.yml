@@ -1,17 +1,17 @@
-name: Docker Image CI
+name: Docker Image CI and Render Deploy
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
   pull_request:
-    branches: ["main"]
+    branches: [ "main" ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Login DockerHub
-        run: docker login -u Kbamunuarachchi0331 -p ,'$Y4^a#3.YZ;s>AY'
-      - name: Build the Docker image
-        run: docker build -t coursework-group_95:latest .
-      - name: Push to DockerHub
-        run: docker push Kbamunuarachchi0331/coursework-group_95:latest
+    - uses: actions/checkout@v4
+    - name: Login DockerHub
+      run: docker login -u nerurodeomo -p ,'X=2d?cc=:>6EaMu'
+    - name: Build the Docker image
+      run: docker build -t nerurodeomo/coursework-group_95:latest .  
+    - name: Push to DockerHub
+      run: docker push nerurodeomo/coursework-group_95:latest
