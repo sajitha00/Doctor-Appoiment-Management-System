@@ -171,7 +171,6 @@ const bookAppointment = async (req, res) => {
         const newAppointment = new appointmentModel(appointmentData)
         await newAppointment.save()
 
-        // save new slots data in docData
         await doctorModel.findByIdAndUpdate(docId, { slots_booked })
 
         io.emit("new_appointment", { userId, docId, slotDate, slotTime })
