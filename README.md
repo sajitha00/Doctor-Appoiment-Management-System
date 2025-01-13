@@ -8,4 +8,4 @@ It also contains a .gitignore file, which should prevent unnecessary (temporary)
 
 The top level should have a single compose file, and separate directories for each application / component / container.
 
-test commit 001
+test commit 002
